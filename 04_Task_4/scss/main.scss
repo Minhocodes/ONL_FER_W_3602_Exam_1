@@ -35,3 +35,15 @@ $colors:(
     gap: 0;
 }
 
+.col{
+    height:300px;
+
+}
+
+@media (max-width: 600px){
+    .row{
+        grid-template-columns: 1fr;
+
+    }
+    .col{height: 50px;}
+}
