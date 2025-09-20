@@ -1,0 +1,33 @@
+@use "sass:color";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$baseColor: #2325b8;
+$secondColor: color.scale($baseColor, $lightness: 30%); 
+$thirdColor: color.scale($baseColor, $lightness: -40%); 
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+}
+
+.section-1 {
+  border: 5px solid $baseColor;
+}
+
+.section-2 {
+  border: 5px solid $secondColor;
+}
+
+.section-3 {
+  border: 5px solid $thirdColor;
+}
