@@ -1,7 +1,7 @@
 {
   "name": "sass",
   "version": "2.0.0",
-  "source": "02_Task_2/index.html",
+  "source": "03_Task_3/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
