@@ -1,0 +1,23 @@
+@use "sass:map";
+@use "sass:list";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+$colors:(
+    "Royal blue":   #042463,
+  "Red Salsa":    #FB3640,
+  "Granite gray": #605F5E,
+  "CG blue":      #247BA0,
+  "Key lime":     #E4FA7C,
+  "Dark purple":  #370031,
+  "Brick red":    #EC4A76,
+  "Cadmium orange": #F28F3B,
+  "Steel Teal":   #588B8B,
+  "Bluetiful":    #446DF6,
+  "Peach":        #FECDAA,
+  "Olive Drab":   #392A16
+);
