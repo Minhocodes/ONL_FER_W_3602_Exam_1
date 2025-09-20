@@ -26,3 +26,19 @@ body {
         transform: translate(-50%, -50%) rotate(45deg);
     }
 }
+
+.dialog{
+    @include dialogBox(#3c8c2b, 90%);
+    color: #0c2b0b;
+
+    .dialog-title{
+        font-size: 3rem;
+        font-weight: 800;
+        margin-bottom: 14px;
+    }
+
+    .dialog-title{
+        font-size: 1.6rem;
+        line-height: 1.4;
+    }
+}
