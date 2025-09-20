@@ -6,4 +6,23 @@ body {
     padding: 20px; font-family: system-ui, sans-serif; 
 }
 
+@mixin dialogBox($backgroundColor, $width){
+    position: relative;
+    width: $width;
+    padding: 10px;
+    background: $backgroundColor;
+    border: 1px solid #000;
+    margin: 40px auto;
 
+    &::after {
+        content: "";
+        position:absolute;
+        top: 0;
+        left: 50%;
+        width: 10px;
+        height: 10px;
+        background: $backgroundColor;
+        border: 1px solid #000;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+}
