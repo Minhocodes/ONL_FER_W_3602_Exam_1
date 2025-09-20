@@ -49,7 +49,7 @@ $colors:(
 }
 
 $keys: map.keys($colors);
-@for $i from 1 through list.length(keys){
+@for $i from 1 through list.length($keys){
     $name: list.nth($keys, $i);
     $val: map.get($colors, $name);
     .row > .col:nth-child(#{$i})
